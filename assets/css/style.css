@@ -17,6 +17,8 @@
     font-family: 'IBM Plex Mono', monospace;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Font Awesome 5 Free';
+    font-family: 'Font Awesome 5 Pro';
 */
 
 
@@ -28,6 +30,7 @@
 
 :root {
     --default-color: #000033;
+    --folder-icon-color: #E5C778;
 }
 
 
@@ -37,9 +40,73 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    text-decoration: none !important;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
     position: relative;
 }
+
+.h1-roboto-bold {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+
+.h1-ibm-bold {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+}
+
+.h4-ibm-medium {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 28px;
+    color: #000000;
+}
+
+
+/* Main Section Start */
+
+ul.project-list .plist a {
+    display: block;
+    position: relative;
+    font-family: 'IBM Plex Mono';
+    color: #000;
+    font-size: 20px;
+}
+
+a.project-list-link::before {
+    position: absolute;
+    content: '\f07c';
+    font-family: 'Font Awesome 5 Pro';
+    top: 0px;
+    left: -35px;
+    color: #E5C778;
+}
+
+li.plist {
+    padding: 5px;
+}
+
+.my-profile-link.text-center a {
+    font-size: 22px;
+    font-family: 'Ubuntu Mono';
+    color: #111;
+    position: relative;
+}
+
+.my-profile-link.text-center a::after {
+    position: absolute;
+    content: '\f35d';
+    font-family: 'Font Awesome 5 Pro';
+    top: 2px;
+    right: -25px;
+    font-size: 15px;
+}
+
+
+/* Main Section End */
