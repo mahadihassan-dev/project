@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "<h1>What you'll get here?</h1>\r <p>Here you'll get my All projects list in a row</p>",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahadihassan-dev/project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahadihassan-dev/project/issues"
+  },
+  "homepage": "https://github.com/mahadihassan-dev/project#readme"
+}
