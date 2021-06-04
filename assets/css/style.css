@@ -81,7 +81,60 @@ body {
 }
 
 /* Main Section Start */
+.project-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 26px;
+    color: #000000;
+}
+.pt-b,
+.pt-wp,
+.pt-njs,
+.pt-vue,
+.pt-rctjs {
+    position: relative;
+}
+.pt-b::before {
+    position: absolute;
+    content: '\f836';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
 
+.pt-wp::before {
+    position: absolute;
+    content: '\f19a';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-rctjs::before {
+    position: absolute;
+    content: '\f41b';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+
+.pt-vue::before {
+    position: absolute;
+    content: '\f41f';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-njs::before {
+    position: absolute;
+    content: '\f3d3';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
 ul.project-list .plist a {
     display: block;
     position: relative;
