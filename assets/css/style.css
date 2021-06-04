@@ -110,3 +110,25 @@ li.plist {
 
 
 /* Main Section End */
+
+/*====================
+
+    Projects Pages Style
+
+======================*/
+
+/* NodeJs Project Page */
+.njpp {
+    position: relative;
+}
+
+.njpp::before {
+    position: absolute;
+    content: "\f3d3";
+    font-family: 'Font Awesome 5 Brands';
+    top: 0;
+    left: 31.9%;
+    font-size: 42px;
+    font-weight: 100;
+    color: #68A063;
+}
