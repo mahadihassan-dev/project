@@ -90,6 +90,7 @@ body {
 .pt-wp,
 .pt-njs,
 .pt-vue,
+.pt-ccss, 
 .pt-rctjs {
     position: relative;
 }
@@ -130,6 +131,14 @@ body {
 .pt-njs::before {
     position: absolute;
     content: '\f3d3';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-ccss::before {
+    position: absolute;
+    content: '\f38b';
     font-family: 'Font Awesome 5 Brands';
     color: #080135;
     left: -36px;
