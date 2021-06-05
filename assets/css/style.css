@@ -88,19 +88,34 @@ body {
 }
 .pt-b,
 .pt-wp,
+.pt-py,
+.pt-php,
 .pt-njs,
 .pt-vue,
+.pt-ajs, 
+.pt-emtp,
+.pt-pydj,
 .pt-ccss, 
-.pt-rctjs {
+.pt-rctjs,
+.pt-phplav {
     position: relative;
 }
 .pt-b::before {
     position: absolute;
-    content: '\f836';
     font-family: 'Font Awesome 5 Brands';
-    color: #080135;
     left: -36px;
     top: 3px;
+    content: '\f836';
+    color: #080135;
+}
+
+.pt-emtp::before {
+    position: absolute;
+    font-family: 'Font Awesome 5 Pro';
+    left: -36px;
+    top: 3px;
+    content: '\f658';
+    color: #080135;
 }
 
 .pt-wp::before {
@@ -139,6 +154,46 @@ body {
 .pt-ccss::before {
     position: absolute;
     content: '\f38b';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-py::before {
+    position: absolute;
+    content: '\f3e2';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-pydj::before {
+    position: absolute;
+    content: '\f3e2';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-php::before {
+    position: absolute;
+    content: '\f457';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-phplav::before {
+    position: absolute;
+    content: '\f3bd';
+    font-family: 'Font Awesome 5 Brands';
+    color: #080135;
+    left: -36px;
+    top: 3px;
+}
+.pt-ajs::before {
+    position: absolute;
+    content: '\f420';
     font-family: 'Font Awesome 5 Brands';
     color: #080135;
     left: -36px;
@@ -184,24 +239,3 @@ li.plist {
 
 /* Main Section End */
 
-/*====================
-
-    Projects Pages Style
-
-======================*/
-
-/* NodeJs Project Page */
-.njpp {
-    position: relative;
-}
-
-.njpp::before {
-    position: absolute;
-    content: "\f3d3";
-    font-family: 'Font Awesome 5 Brands';
-    top: 0;
-    left: 31.9%;
-    font-size: 42px;
-    font-weight: 100;
-    color: #68A063;
-}
