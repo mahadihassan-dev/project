@@ -4,6 +4,7 @@
     Version: 1.v
 */
 
+
 /* Fonts Import */
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -26,7 +27,6 @@
 */
 
 
-
 /* CSS Varribale */
 
 :root {
@@ -46,7 +46,7 @@
 }
 
 body {
-    position: relative;
+    position: relative !important;
 }
 
 .h1-roboto-bold {
@@ -80,26 +80,70 @@ body {
     display: block;
 }
 
+
+/* Whatsapp Chat Start */
+
+.whatsapp_chat {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 999;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.whatsapp_chat i {
+    font-size: 62px;
+    color: #25D366;
+}
+
+a.skype_chat {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 999;
+}
+
+.skype_chat i {
+    font-size: 62px;
+    color: #00aff0;
+}
+
+
+/* Whatsapp Chat End */
+
+
 /* Main Section Start */
+
 .project-title {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 26px;
     color: #000000;
 }
+
 .pt-b,
 .pt-wp,
 .pt-py,
 .pt-php,
 .pt-njs,
 .pt-vue,
-.pt-ajs, 
+.pt-ajs,
 .pt-emtp,
 .pt-pydj,
-.pt-ccss, 
+.pt-ccss,
 .pt-rctjs,
 .pt-phplav {
     position: relative;
 }
+
 .pt-b::before {
     position: absolute;
     font-family: 'Font Awesome 5 Brands';
@@ -126,6 +170,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-rctjs::before {
     position: absolute;
     content: '\f41b';
@@ -143,6 +188,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-njs::before {
     position: absolute;
     content: '\f3d3';
@@ -151,6 +197,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-ccss::before {
     position: absolute;
     content: '\f38b';
@@ -159,6 +206,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-py::before {
     position: absolute;
     content: '\f3e2';
@@ -167,6 +215,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-pydj::before {
     position: absolute;
     content: '\f3e2';
@@ -175,6 +224,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-php::before {
     position: absolute;
     content: '\f457';
@@ -183,6 +233,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-phplav::before {
     position: absolute;
     content: '\f3bd';
@@ -191,6 +242,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 .pt-ajs::before {
     position: absolute;
     content: '\f420';
@@ -199,6 +251,7 @@ body {
     left: -36px;
     top: 3px;
 }
+
 ul.project-list .plist a {
     display: block;
     position: relative;
@@ -238,4 +291,3 @@ li.plist {
 
 
 /* Main Section End */
-
