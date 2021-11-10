@@ -291,3 +291,57 @@ li.plist {
 
 
 /* Main Section End */
+
+
+/* Footer Section Start */
+
+.footer_wrapper {
+    margin-top: 60px;
+}
+
+.footer_socialMedia {
+    text-align: right;
+}
+
+.designCredit {
+    font-size: 13px;
+}
+
+.designRight {
+    text-align: center;
+}
+
+.designRights {
+    font-size: 13px;
+}
+
+.footer_socialmedia {
+    text-align: right;
+}
+
+.socialmedida_items {
+    display: inline-block;
+}
+
+.socialmedia_item i {
+    font-size: 26px;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #0077b5;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.behance {
+    color: #053eff;
+}
+
+
+/* Footer Section End */
