@@ -81,6 +81,30 @@ body {
 }
 
 
+/* Figma design BTN Start */
+
+a.fig_designBtn {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: rebeccapurple;
+    border-radius: 50%;
+}
+
+a i {
+    font-size: 22px;
+    color: #fff;
+}
+
+
+/* Figma design BTN End */
+
+
 /* Whatsapp Chat Start */
 
 .whatsapp_chat {
