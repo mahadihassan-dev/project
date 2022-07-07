@@ -1,0 +1,153 @@
+// Import Mixins
+@import '../_mixins/mixins';
+
+/*Project Gallery Card Start*/
+.project_grallery_card {
+    position: relative;
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
+    &__tag {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .pg_card_tag_items {
+            margin: 5px 5px;
+            &__link {
+                @include cat_tag_keyword;
+            }
+            &__link.pg_card_tag__item_themeforest {
+                color: #fff;
+                background-color: #262626;
+            }
+            &__link.pg_card_tag__item_upwork {
+                color: #fff;
+                background-color: #6fda44;
+            }
+            &__link.pg_card_tag__item_client {
+                color: #fff;
+                background-color: #0781fe;
+            }
+            &__link.pg_card_tag__item_fiverr {
+                color: #fff;
+                background-color: #00B22D;
+            }
+            &__link.pg_card_tag__item_bootstrap {
+                color: #fff;
+                background-color: #7431F8;
+            }
+            &__link.pg_card_tag__item_php {
+                color: #fff;
+                background-color: #8993be;
+            }
+            &__link.pg_card_tag__item_wordpress {
+                color: #fff;
+                background-color: #21759b;
+            }
+            &__link.pg_card_tag__item_elementor {
+                color: #fff;
+                background-color: #92003b ;
+            }
+            &__link.pg_card_tag__item_laravel {
+                color: #fff;
+                background-color: #f55247;
+            }
+            &__link.pg_card_tag__item_uiux {
+                color: #000033;
+                // background-color: #EA4335;
+            }
+            &__link.pg_card_tag__item_e-template {
+                color: #fff;
+                background-color: #EA4335;
+            }
+            &__link.pg_card_tag__item_e-signature {
+                color: #fff;
+                background-color: #BB001C;
+            }
+        }
+    }
+    &__ovly {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // visibility: hidden;
+        opacity: 0;
+        transform: translate(9px, 7px) rotateX(-45deg) rotateY(-35deg);
+        transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        ul {
+            display: flex;
+            li {
+                margin: 0px 5px;
+                a {
+                    padding: 5px 15px;
+                    display: block;
+                    background: #0781fe;
+                    color: #fff;
+                    border-radius: 3px;
+                    i {
+                        color: #fff;
+                        margin-left: 2px;
+                    }
+                }
+            }
+        }
+    }
+    &:hover>.project_grallery_card__ovly {
+        // visibility: visible;
+        opacity: 1;
+        transform: translate(0px, 0px) rotateX(0) rotateY(0);
+    }
+}
+/*Project Gallery Card End*/
+
+/*Project Feature Card Start*/
+.project_feature_card {
+    margin: 20px 0px;
+    .project_feature_card_details {
+        h4 {
+            font-family: var(--poppin-font);
+            font-weight: 600;
+            font-size: 18px;
+        }
+        p {
+            font-family: var(--poppin-font);
+            font-weight: 400;
+            font-size: 16px;
+            text-align: justify;
+            margin-top: 5px;
+        }
+        a {
+            @include cat_tag_keyword;
+            background: #000023;
+            color: #fff;
+            display: inline-flex;
+            padding: 10px 30px !important;
+            font-size: 12px !important;
+        }
+    }
+    .project_feature_card_image {
+        position: relative;
+        .project_feature_card_tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            @include cat_tag_keyword;
+        }
+    }
+    // :nth-of-type(even) {
+    //     .project_feature_card_details {
+            
+    //     }
+    // }
+}
+/*Project Feature Card End*/

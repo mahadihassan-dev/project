@@ -1,0 +1,32 @@
+@import '../_mixins/mixins';
+.section_title {
+    h4 {
+        font-family: var(--poppin-font);
+        font-size: 26px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: '';
+            top: -10px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 5px;
+            background: #5656d3;
+            border-radius: 10px;
+            box-shadow: 0px 0px 0px 5px #f9f4f4;
+            // border-radius: 50%;
+        }
+    }
+    p {
+        font-family: var(--poppin-font);
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        color: #000;
+        margin: 0;
+    }
+}

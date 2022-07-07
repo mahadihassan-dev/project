@@ -1,0 +1,15 @@
+@import '../_mixins/mixins';
+
+// Contact Start 
+.contact_title {
+    @include section_title;
+    text-align: center;
+    h4 {
+        font-family: var(--poppin-font);
+        margin-bottom: 20px;
+    }
+    .contact_btn {
+        @include link_btn;
+    }
+}
+// Contact End 

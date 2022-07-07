@@ -1,0 +1,14 @@
+<ul class="project_grallery_card__tag">
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_themeforest">Themeforest</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_upwork">Upwork</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_client">Client</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_fiverr">Fiverr</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_bootstrap">Bootstrap</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_php">PHP</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_wordpress">WordPress</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_elementor">Elementor</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_laravel">Laravel</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_uiux">UI/UX</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_e-template">Email Template</a></li>
+                                    <li class="pg_card_tag_items"><a href="#" class="pg_card_tag_items__link pg_card_tag__item_e-signature">Email Signature</a></li>
+                                </ul>

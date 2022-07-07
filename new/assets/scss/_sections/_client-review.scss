@@ -1,0 +1,69 @@
+@import '../_mixins/mixins';
+
+// Client Review Slide
+.client_review_slide {
+    .client_review_details {
+        padding: 60px 0px;
+        h5 {
+            font-family: var(--poppin-font);
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .client_company {
+            display: block;
+            font-family: var(--poppin-font);
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        .client_loc {
+            background-color: #0781fe;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            margin-top: 5px;
+            i {
+                margin-right: 3px;
+            }
+        }
+        p {
+            font-family: var(--poppin-font);
+            font-weight: 400;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    }
+    .client_review_video {
+        position: relative;
+        transition: all .3s linear;
+        .client_loc_tag {
+            @include cat_tag_keyword;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #000033;
+            i {
+                margin-right: 3px;
+            }
+        }
+        .video_playbtn {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 46px;
+            color: #fe0000;
+            opacity: 0;
+            transition: all .3s linear
+        }
+        &:hover>.video_playbtn {
+            opacity: 1;
+        }
+    }
+}

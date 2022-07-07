@@ -1,0 +1,43 @@
+// Root CSS Start
+:root {
+    --poppin-font: 'Poppins', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+// Root CSS End
+
+/* Poppins Font - Google Font CDN */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Card SCSS Importing
+@import '../_components/cards';
+
+// Mixins
+@import '../_mixins/mixins';
+
+// Header
+@import '../_sections/header';
+
+// Project Feature
+@import '../_sections/feature';
+
+// Client Reviews
+@import '../_sections/client-review';
+
+// Section title
+@import '../_sections/section-title';
+
+// Contact Me
+@import '../_sections/contact-me';
